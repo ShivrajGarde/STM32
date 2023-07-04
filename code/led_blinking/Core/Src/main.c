@@ -77,12 +77,14 @@ int main(void)
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
 	  HAL_Delay(500);
 
+	 	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
+
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
 	  	  HAL_Delay(500);
 
 	  	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
 	  		  	  HAL_Delay(500);
-	  		  	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
+
 
     /* USER CODE END WHILE */
 
